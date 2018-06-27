@@ -1,10 +1,10 @@
-# Minimal StarterKit for Drupal
+# Chapter Three's Pattern Lab StarterKit
 
-The Minimal StarterKit for Drupal is meant to be used as a near-blank starting point for Drupal-based projects in Pattern Lab.
+Chapter Three's Pattern Lab StarterKit is meant to be used as part of Chapter Three's [CThreem](https://github.com/chapter-three/cthreem) Drupal 8 theme.
 
 ## Requirements
 
-The Minimal StarterKit for Drupal requires the following PatternEngine:
+Chapter Three's Pattern Lab StarterKit for the CThreem Drupal 8 theme requires the following PatternEngine:
 
 * `pattern-lab/patternengine-twig`: [documentation](https://github.com/pattern-lab/patternengine-php-twig#twig-patternengine-for-pattern-lab), [GitHub](https://github.com/pattern-lab/patternengine-php-twig), [Packagist](https://packagist.org/packages/pattern-lab/patternengine-twig)
 
@@ -13,7 +13,7 @@ The Minimal StarterKit for Drupal requires the following PatternEngine:
 This StarterKit can be installed via one of the following commands:
 
     php core/console --starterkit --init
-    php core/console --starterkit --install pattern-lab/starterkit-twig-drupal-minimal
+    php core/console --starterkit --install chapter-three/cthreem-pattern-lab-starterkit
 
 It is recommended that you **do not** install this StarterKit as a dependency for your Pattern Lab project via Composer.
 
