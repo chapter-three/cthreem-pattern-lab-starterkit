@@ -1,0 +1,27 @@
+{% for item in items %}
+  <details>
+    {# Sass variable: #}{# item.name #}
+    <summary>{{ item.value }}</summary>
+
+    <br>
+
+    <label>300:</label>
+    <p class="sg-font-sample" style="font-family: {{ item.value }}; font-weight: 300;">{{ excerpt.medium }}</p>
+
+    <label>400:</label>
+    <p class="sg-font-sample" style="font-family: {{ item.value }}; font-weight: 400;">{{ excerpt.medium }}</p>
+
+    <label>400 italic:</label>
+    <p class="sg-font-sample" style="font-family: {{ item.value }}; font-weight: 400; font-style: italic;">{{ excerpt.medium }}</p>
+
+    <label>500:</label>
+    <p class="sg-font-sample" style="font-family: {{ item.value }}; font-weight: 500;">{{ excerpt.medium }}</p>
+
+    <label>700:</label>
+    <p class="sg-font-sample" style="font-family: {{ item.value }}; font-weight: 700;">{{ excerpt.medium }}</p>
+  </details>
+{% endfor %}
+
+{% if meta %}
+  <p> <small>{{ meta.description }}</small> </p>
+{% endif %}
